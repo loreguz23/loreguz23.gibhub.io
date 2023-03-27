@@ -138,19 +138,19 @@ A la brebevedad nos contactaremos</p>
 <form action="" method="POST">
   <ul class="formulario">
     <li><label for="nombre">Nombre:</label><br>
-  <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"  minlength="2" required >
+  <input type="text" id="nombre" name="nombre"  minlength="2" required>
 </li>
 <li><label for="apellido">Apellido:</label><br>
-  <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required >
+  <input type="text" id="apellido" name="apellido" minlength="2" required>
   </li>
   <li><label for="fecha">Edad:</label><br>
-  <input type="text" id="edad" name="Edad" placeholder="Ingrese su Edad" required>
+  <input type="number" id="edad" name="Edad" min="18" max="100" required>
   </li>
   <li><label for="mail">Correo electrónico:</label><br>
-  <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+  <input type="email" id="email" name="email" required>
   </li>
   <li><label for="consulta">Consulta:</label><br>
-    <textarea id="mensaje" name="consulta" placeholder="Ingrese su consulta" minlength="10"  maxlength="30" required></textarea>
+    <textarea id="mensaje" name="consulta"  minlength="10"  maxlength="30" required></textarea>
     </li>
   <input type="submit" id="submit" value="Enviar" >
 </form>
