@@ -43,6 +43,9 @@ h2 {
     border-color: 5px solid grey;
     font-family: 'Roboto', sans-serif;
 }
+.programas {
+    text-decoration: underline black;
+}
 
 
 
@@ -212,5 +215,5 @@ input:invalid {
     
 }
 input:valid {
-    background-color: powderblue;
+   border-color: black 5px solid;
   }
