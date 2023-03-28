@@ -32,10 +32,7 @@
       document.getElementById("profesion").style.color = "black";
     });
 
-    document.getElementById("submit").addEventListener('click', function() {   
-      alert("Su consulta ha sido enviada");
-    });
-
+    
   
  
 
